@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="tamp.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body>
+<header class="header">
+	<div class="tamp">
+ <h4> <img src="uad.png" width="100px" height="100px" style="float:left"></h4>
+                    <h1>Portal uad</h1><h3>Universitas Ahmad Dahlan</h3>
+		<ul>
+			<li><a href="masukk.html">Home</a></li>
+			<li class="dropdown"><a>Perkuliahan</a>
+				<ul class="isi-dropdown">
+					<li><a href="presensii.html">Presensi</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+				</ul>
+
+			<li class="dropdown"><a>Kemahasiswaan</a>
+				<ul class="isi-dropdown">
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+				</ul>
+			<li class="dropdown"><a>Kelulusan</a>
+				<ul class="isi-dropdown">
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Wifi Mahasiswa</a></li>
+			<li><a href="index.php"> Keluar</a></li>
+		</ul>
+ 
+	</div>
+</header>
+ 
+<br/>
+<h2> REKAP PRESENSI</h2>
+<h3>Keterangan :</h3>
+<a>Rekap Presensi merupakan fasilitas yang dapat digunakan untuk melihat hasil rekap presensi mahasiswa persemester. </a><br>
+<a>Selain dapat dilihat secara online, rekap presensi ini juga dapat dicetak.</a>
+ 
+<br/>
+<br/><ul>
+<form id="form_semester">
+	<table>
+		<tr>
+			<td>Pilih Semester</td>
+			<td> : </td>
+			<td>
+				<select id="semester">
+					<option>-----------------------</option>
+					<option value="p1.html">Gasal 2018/2019</option>
+					<option value="p2.html">Genap 2018/2019</option>
+					<option value="p3.html">Gasal 2019/2020</option>
+					<option value="p4.html">Genap 2019/2020</option>
+				</select></ul>
+				<input type="submit" value="LIHAT PRESENSI">
+			</td>
+		</tr>
+	</table>	
+</form>
+<br><br>
+
+<html>
+<head>
+</head>
+<body>
+<form action="#" style="width: 700px"class="posisi";>
+<fieldset class="h"/>
+<table style="width: 600px;">
+<body > </body>
+
+<center>
+<font size="25px">
+
+</font>
+</center>
+<tr>
+<td><b>Nama</b></td>
+<td><b>:   Abdul Afif Ihyatul K.</b></td>
+</tr>
+<tr>
+<td><b>Nim</b></td>
+<td><b>:   1800018410</b></td>
+</tr>
+<tr>
+<td><b>Program Studi</b></td>
+<td><b>:   Teknik Informatika</b></td>
+</tr>
+<tr>
+</body>
+
+</html>
+
+<table width="745" border="1" cellspacing="0" cellpadding="5" align="center">
+<tr align="center">
+<td width="50">Kode</td>
+<td width="300">Matakuliah</td>
+<td width="30">Kelas</td>
+<td width="30">Jumlah</td>
+<td width="30">Hadir</td>
+<td width="30">Tidak</td>
+</tr>
+<tr>
+<td>0024320</td>
+<td>Pendidikan Kewarganegaraan</td>
+<td> H</td>
+<td> 14</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr>
+<td>34242</td>
+<td>Algoritma Pemrograman</td>
+<td> H</td>
+<td> 14</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr>
+<td>65434</td>
+<td>Arsitektur Komputer</td>
+<td> H</td>
+<td> 14</td>
+<td>11</td>
+<td>3</td>
+</tr>
+<tr>
+<td>646434</td>
+<td>Aljabar Linear Matrik</td>
+<td> H</td>
+<td> 14</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr>
+<td>52154</td>
+<td>Manajemen Data dan Informasi</td>
+<td> H</td>
+<td> 14</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>545211</td>
+<td>Tahsinul Quran</td>
+<td> H</td>
+<td> 12</td>
+<td>11</td>
+<td>1</td>
+</tr>
+
+</table>
+
+
+<script 
+src="https://code.jquery.com/jquery-3.5.1.slim.js" 
+integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" 
+crossorigin="anonymous"></script>
+
+
+<script>
+	$('#semester').on('change', function(event) {
+		var semester = $("#semester").val();
+		event.preventDefault();
+		$("#form_semester").on('submit', function(event) {
+			window.location = semester;
+			event.preventDefault();
+		});
+	});
+</script>
+ 
+</body>
+</html>

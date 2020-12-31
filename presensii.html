@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="tamp.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body>
+<header class="header">
+	<div class="tamp">
+ <h4> <img src="uad.png" width="100px" height="100px" style="float:left"></h4>
+                    <h1>Portal uad</h1><h3>Universitas Ahmad Dahlan</h3>
+		<ul>
+			<li><a href="masukk.html">Home</a></li>
+			<li class="dropdown"><a>Perkuliahan</a>
+				<ul class="isi-dropdown">
+					<li><a href="presensii.html">Presensi</a></li>
+					<li><a href="#">Sub Menu 2</a></li>
+					<li><a href="#">Sub Menu 3</a></li>
+					<li><a href="#">Sub Menu 4</a></li>
+				</ul>
+
+			<li class="dropdown"><a>Kemahasiswaan</a>
+				<ul class="isi-dropdown">
+					<li><a href="#">Sub Menu 1</a></li>
+					<li><a href="#">Sub Menu 2</a></li>
+					<li><a href="#">Sub Menu 3</a></li>
+					<li><a href="#">Sub Menu 4</a></li>
+				</ul>
+			<li class="dropdown"><a>Kelulusan</a>
+				<ul class="isi-dropdown">
+					<li><a href="#">Sub Menu 1</a></li>
+					<li><a href="#">Sub Menu 2</a></li>
+					<li><a href="#">Sub Menu 3</a></li>
+					<li><a href="#">Sub Menu 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Wifi Mahasiswa</a></li>
+			<li><a href="index.php"> Keluar</a></li>
+		</ul>
+ 
+	</div>
+</header>
+ 
+<br/>
+<h2> REKAP PRESENSI</h2>
+<h3>Keterangan :</h3>
+<a>Rekap Presensi merupakan fasilitas yang dapat digunakan untuk melihat hasil rekap presensi mahasiswa persemester. </a><br>
+<a>Selain dapat dilihat secara online, rekap presensi ini juga dapat dicetak.</a>
+ 
+<br/>
+<br/><ul>
+<form id="form_semester">
+	<table>
+		<tr>
+			<td>Pilih Semester</td>
+			<td> : </td>
+			<td>
+				<select id="semester">
+					<option>-----------------------</option>
+					<option value="p1.html">Gasal 2018/2019</option>
+					<option value="p2.html">Genap 2018/2019</option>
+					<option value="p3.html">Gasal 2019/2020</option>
+					<option value="p4.html">Genap 2019/2020</option>
+				</select></ul>
+				<input type="submit" value="LIHAT PRESENSI">
+			</td>
+		</tr>
+	</table>	
+</form>
+<script 
+src="https://code.jquery.com/jquery-3.5.1.slim.js" 
+integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" 
+crossorigin="anonymous"></script>
+
+
+<script>
+	$('#semester').on('change', function(event) {
+		var semester = $("#semester").val();
+		event.preventDefault();
+		$("#form_semester").on('submit', function(event) {
+			window.location = semester;
+			event.preventDefault();
+		});
+	});
+</script>
+ 
+</body>
+</html>
