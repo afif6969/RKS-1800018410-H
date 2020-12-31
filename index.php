@@ -48,8 +48,8 @@
             $query = "SELECT * FROM data WHERE username = '{$username}' ";
             $select_user_query = mysqli_query($konek, $query);
 
-            $username_db = "";
-            $password_db = "";
+            $username_db = "tes";
+            $password_db = "tes";
 
 
             while ($row = mysqli_fetch_assoc($select_user_query)) {
