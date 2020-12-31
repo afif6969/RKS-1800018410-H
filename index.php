@@ -31,14 +31,6 @@
             <div class="form-group">
             <label  class="text-info"><h4>Masukan Username dan Password</h4></label></div>
             <input type="submit" name="masuk" class="btn btn-info btn-md" value="submit">
-        <div>
-
-        
-
-        </div>
-
-        
-
 
         <?php  
         if (isset($_POST['masuk'])){
