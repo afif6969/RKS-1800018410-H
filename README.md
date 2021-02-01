@@ -10,4 +10,6 @@ https://drive.google.com/drive/folders/1UwhudV1h-3S9PYUKnEPID1jNu5NfpFFO?usp=sha
 ![Screenshot_3](https://user-images.githubusercontent.com/48402747/106413658-36eb1e00-647d-11eb-9c47-72580adf2810.png)
 ![Screenshot_4](https://user-images.githubusercontent.com/48402747/106413660-3783b480-647d-11eb-8efa-211286a482e7.png)
 ![Screenshot_5](https://user-images.githubusercontent.com/48402747/106413662-3a7ea500-647d-11eb-9d91-a62bcc243f68.png)
+![Screenshot_6](https://user-images.githubusercontent.com/48402747/106414276-c93ff180-647e-11eb-9ebf-d162605a4a26.png)
+![Screenshot_7](https://user-images.githubusercontent.com/48402747/106414277-ccd37880-647e-11eb-92f2-3c32e2905718.png)
 
